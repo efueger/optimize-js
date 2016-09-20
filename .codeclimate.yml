@@ -1,0 +1,30 @@
+---
+engines:
+  duplication:
+    enabled: false
+    config:
+      languages:
+      - ruby
+      - javascript
+      - python
+      - php
+  eslint:
+    enabled: false
+  fixme:
+    enabled: true
+    config:
+      strings:
+      - FIXME
+      - TODO
+      - TODO_COMPROMISE
+ratings:
+  paths:
+  # - "**.inc"
+  # - "**.js"
+  # - "**.jsx"
+  # - "**.module"
+  # - "**.php"
+  # - "**.py"
+  # - "**.rb"
+exclude_paths:
+- test/
