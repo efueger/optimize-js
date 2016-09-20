@@ -2255,7 +2255,7 @@ var __start = performance.now();
       this.ownerID = ownerID;
     }
 
-    // TODO: seems like these methods are very similar
+    // TODO_COMPROMISE: seems like these methods are very similar
 
     VNode.prototype.removeBefore = function(ownerID, level, index) {
       if (index === level ? 1 << level : 0 || this.array.length === 0) {
