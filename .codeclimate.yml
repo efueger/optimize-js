@@ -19,12 +19,12 @@ engines:
       - TODO_COMPROMISE
 ratings:
   paths:
-  # - "**.inc"
-  # - "**.js"
-  # - "**.jsx"
-  # - "**.module"
-  # - "**.php"
-  # - "**.py"
-  # - "**.rb"
+  - "**.inc"
+  - "**.js"
+  - "**.jsx"
+  - "**.module"
+  - "**.php"
+  - "**.py"
+  - "**.rb"
 exclude_paths:
 - test/
