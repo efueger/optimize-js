@@ -15,8 +15,8 @@ engines:
     config:
       strings:
       # - FIXME
-      - TODO
-      - TODO_COMPROMISE
+      # - TODO
+      # - TODO_COMPROMISE
       - TODO_COMPROMISE
 ratings:
   paths:
